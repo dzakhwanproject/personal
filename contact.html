@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dzakhwan Adli Alfauzan | Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">Dzakhwan<span></span></a>
+    <ul class="nav-links">
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active nav-cta">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">Tentang</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section id="contact">
+      <div class="sec-header">
+        <div class="sec-tag">05 // CONTACT</div>
+        <h2 class="sec-title">Hubungi <span class="accent">Saya</span></h2>
+        <div class="sec-line"></div>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- LEFT SIDE -->
+        <div class="contact-text">
+          <p>
+            Tertarik untuk berkolaborasi, berdiskusi tentang teknologi, 
+            atau sekadar menyapa? Jangan ragu untuk menghubungi saya. 
+            Saya selalu terbuka untuk peluang baru dan percakapan menarik di dunia IT.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:dzakhwanalfauzan@gmail.com" class="contact-link">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <div class="link-label">EMAIL</div>
+                <div class="link-val">dzakhwanalfauzan@gmail.com</div>
+              </div>
+            </a>
+            
+            <a href="https://www.instagram.com/mr.v01d.ar_/" target="_blank" class="contact-link">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <div class="link-label">INSTAGRAM</div>
+                <div class="link-val">@mr.vo1d.ar_</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/dzakhwanproject" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i>
+              <div>
+                <div class="link-label">GITHUB</div>
+                <div class="link-val">dzakhwanproject</div>
+              </div>
+            </a>
+
+            <a href="https://wa.me/6282130549509" target="_blank" class="contact-link">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <div class="link-label">WHATSAPP</div>
+                <div class="link-val">+62 821-3054-9509</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE - FORM -->
+        <div class="contact-form">
+          <div class="form-group">
+            <label>// NAMA</label>
+            <input type="text" id="formNama" placeholder="Nama kamu..."/>
+          </div>
+          <div class="form-group">
+            <label>// EMAIL</label>
+            <input type="email" id="formEmail" placeholder="email@domain.com"/>
+          </div>
+          <div class="form-group">
+            <label>// PESAN</label>
+            <textarea id="formPesan" placeholder="Tulis pesanmu di sini..."></textarea>
+          </div>
+          <button class="form-submit" onclick="sendMsg()">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">DZAKHWAN // PORTFOLIO</div>
+    <div class="footer-copy">
+      &copy; 2026 Dzakhwan Adli Alfauzan &nbsp;·&nbsp; XI TJKT 2 &nbsp;·&nbsp; SMKN 13 Bandung
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
